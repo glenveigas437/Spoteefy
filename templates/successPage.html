@@ -1,0 +1,11 @@
+{% extends 'index.html' %}
+
+
+{% block content %}
+
+	<h2 style="margin-top: 10%; color:#FFFFFF;">Playlist '{{playlistName}}' Created Successfully!</h2>
+	
+	<br><br>
+	<a  style="margin-left:65%;" href='https://open.spotify.com/playlist/{{playlistID}}'><button class="btn btn-outline-light mb-2">Open Playlist '{{playlistName}}' </button></a>
+
+{% endblock content %}

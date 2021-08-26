@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+
+<body> 
+{% block content %}
+  <div class="wrapper">
+    <div class="static-txt">Come Let's Create a Playlist from the</div>
+    <ul class="dynamic-txts">
+      <li><span>Tracks</span></li>
+      <li><span>Artists</span></li>
+      <li><span>Albums</span></li>
+    </ul>
+  </div>
+  <h3 style="margin-left: 75%; color:#FFFFFF; font-size: 60px; font-weight: 400; width: 100%; margin-top: -13%">You Love</h3>
+<br><br>
+  <form class="form-inline" action="/getVisualize" method="POST">
+  <div class="form-group mx-sm-3 mb-2">
+    <label style="color:#FFFFFF; font-size: 20px; font-weight: bol;">Enter the Number of Tracks to Visualize: &nbsp;</label>
+    <input type="text" class="form-control" name="trackInput">
+  </div>
+  <button type="submit" class="btn btn-outline-light mb-2">Let's Go</button>
+</form>
+</div>
+
+{% endblock content %}
+</body>

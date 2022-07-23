@@ -39,7 +39,7 @@ Click on Get Token and select these options
 
 ![image](https://user-images.githubusercontent.com/31877827/131080555-41135b50-a0c8-493b-a426-6c0a6cabc278.png)
 
-and request the token. This Web app contains a [YAML file](https://github.com/glenveigas437/Spoteefy/blob/main/auth.yaml), where the userID and oAuth token is added.
+On running the app it will redirect you to log in to Spotify, where it will aunthenticate the user.
 
 ### Running the app
 You can clone or download the repo.

@@ -11,7 +11,7 @@ import pygal
 # App config
 app = Flask(__name__)
 
-app.secret_key = '1fgDJVASFGETRFERVHJvdfyge213612653213'
+app.secret_key = #YOUR SECRET KEY
 
 spotifyClient = SpotifyClient()
 
